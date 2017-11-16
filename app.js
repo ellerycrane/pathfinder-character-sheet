@@ -34,7 +34,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "./";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
@@ -39888,7 +39888,7 @@
 	      var router = (0, _router.createRouter)(_definitions.ROUTES, _definitions.ROUTER_CONFIG);
 	
 	      router.usePlugin((0, _browser2.default)({
-	        base: ('')
+	        base: ('.')
 	      }));
 	
 	      router.useMiddleware((0, _routerMiddleware.appRouterMiddleware)(_definitions.ROUTES, this.system));
